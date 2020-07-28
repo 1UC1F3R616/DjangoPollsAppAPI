@@ -34,7 +34,6 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            pollsapi
             python manage.py test
 
       - store_artifacts:
